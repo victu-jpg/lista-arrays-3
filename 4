@@ -1,0 +1,9 @@
+let v = [];
+for (let i = 0; i < 5; i++){
+  v.push(+prompt());}
+let maior = v[0];
+let menor = v[0];
+for (let i = 1; i<v.length; i++){
+  if (v[i] > maior) maior = v[i];
+  if (v[i] < menor) menor = v[i];}
+alert(maior - menor);
