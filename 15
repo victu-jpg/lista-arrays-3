@@ -1,0 +1,15 @@
+let vetor = [];
+for (let i = 0; i < 5; i++){
+    vetor.push(Number(prompt("Digite o número " + (i + 1) + ":")));
+}
+let maior = -Infinity;
+let segundoMaior = -Infinity;
+for (let i = 0; i < 5; i++)}
+    if (vetor[i] > maior){
+        segundoMaior = maior;
+        maior = vetor[i];
+    } else if (vetor[i] > segundoMaior && vetor[i] !== maior) {
+        segundoMaior = vetor[i];
+    }
+}
+alert("O vetor digitado foi: " + vetor + "\nO segundo maior número é: " + segundoMaior);
