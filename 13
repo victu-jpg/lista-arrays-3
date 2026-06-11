@@ -1,0 +1,11 @@
+let vetor = [];
+for (let i = 0; i < 5; i++){
+    vetor.push(Number(prompt("Digite o número " + (i + 1) + ":")));
+}
+let somaPares = 0;
+for (let i = 0; i < 5; i++){
+    if (i % 2 === 0) {
+        somaPares = somaPares + vetor[i];
+    }
+}
+alert("Soma dos elementos: " + somaPares);
